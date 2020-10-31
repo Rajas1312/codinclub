@@ -8,4 +8,7 @@ then
 else
 	echo "Employee is present"
 fi
-
+wage_per_hour=20
+full_day=8
+daily_wage=$((wage_per_hour*full_day))
+echo "Daily wage is" $daily_wage
