@@ -36,3 +36,11 @@ do
 		echo $daily_wage
 	fi
 done
+
+hours(){
+	echo "the work hours for full timer is" $full_day
+	echo "the work hours for part timer is" $part_time_hr
+
+}
+
+hours
