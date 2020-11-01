@@ -41,7 +41,9 @@ do
 	fi
 done
 
-hours(){
+hours(){ git push --set-upstream salary UC8
+
+
 	echo "the work hours for full timer is" $full_day
 	echo "the work hours for part timer is" $part_time_hr
 
@@ -68,3 +70,4 @@ do
 done
 
 echo "total wage" $total_wage
+echo "Daily wage" $daily_wage
