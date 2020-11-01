@@ -17,4 +17,4 @@ echo "Daily wage for full time employee is" $daily_wage
 
 part_time_hr=8
 
-echoo
+echo "solving with switch/case statement"
