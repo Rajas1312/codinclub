@@ -27,3 +27,12 @@ case $Employee_part_time in
 esac
 	echo $month_wage;
 
+for ((i=1; i<=20; i++))
+do
+	j=$((i*8))
+	echo "number of hrs worked " $j
+	if [ $j -le 100 ]
+	then
+		echo $daily_wage
+	fi
+done
