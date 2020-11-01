@@ -18,3 +18,11 @@ echo "Daily wage for full time employee is" $daily_wage
 part_time_hr=8
 
 echo "solving with switch/case statement"
+
+case $Employee_part_time in
+	$Employee_part_time) month_wage=$((daily_wage*20));;
+	$Employee_full_time) month_wage=$((daily_wage*20));;
+			*) month_wage=0;;
+esac
+	echo $month_wage;
+
